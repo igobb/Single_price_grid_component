@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: hsl(204, 43%, 93%);
+    font-family: 'Karla', sans-serif;
+    font-weight: 400;
+}
+main {
+    width: 30%;
+    min-width: 600px;
+    box-shadow: 0 10px 20px hsl(218, 22%, 67%);
+    border-radius: 10px;
+}
+.top {
+    max-width: 100%;
+    min-height: 40%;
+    background-color: white;
+    border-radius: 10px 10px 0 0 ;
+    padding: 5%;
+}
+.bottom {
+    width: 100%;
+    min-height: 60%;
+    display: flex;
+}
+.bottom_left {
+    width: 50%;
+    min-height: 100%;
+    background-color: hsl(179, 62%, 43%);
+    padding: 5%;
+    border-radius: 0 0 0 10px;
+}
+.bottom_right {
+    width: 50%;
+    min-height: 100%;
+    background-color: hsl(179, 46%, 51%);
+    padding: 5%;
+    border-radius: 0 0 10px 0;
+}
+h1 {
+    color: hsl(179, 62%, 43%);
+    font-weight: 700;
+    font-size: 23px;
+}
+h2 {
+    font-size: 19px;
+    color: white;
+    font-weight: 400;
+    margin-top: 0;
+}
+p {
+    font-size: 15px;
+    color: hsl(204, 43%, 93%);
+    margin-top: 0;
+}
+.top h2 {
+    color: hsl(71, 73%, 54%);
+    font-weight: 700;
+}
+.top p {
+    color: hsl(218, 22%, 67%);
+}
+.bottom_right p {
+    opacity: 90%;
+}
+span {
+    font-size: 33px;
+    font-weight: 700;
+    color: white;
+    margin-right: 15px;
+}
+.dolar {
+    color: hsl(204, 43%, 93%, 60%);
+    margin-bottom: 10px;
+}
+button {
+    width: 100%;
+    height: 30%;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-size: 17px;
+    font-weight: 700;
+    background-color: hsl(71, 73%, 54%);
+    margin-top: 10px;
+    box-shadow: 0 15px 30px hsl(179, 61%, 38%);
+}
+@media only screen and (max-width: 767px) {
+    main {
+        width: 345px;
+        min-width: 335px;   
+    }
+    .bottom {
+        display: block;
+        
+    }
+    .bottom_left {
+        width: 100%;
+        padding: 5%;
+        border-radius: 0;
+        box-sizing: border-box;
+    }
+    .bottom_right {
+        width: 100%;
+        padding: 5%;
+        border-radius: 0 0 10px 10px;
+        box-sizing: border-box;
+    }
+    button {
+        min-height: 50px;
+    }
+}
+
